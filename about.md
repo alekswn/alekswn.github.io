@@ -3,7 +3,7 @@ layout: page
 title: About me
 permalink: /about/
 ---
-My name is Alexey aka Alekswn. I was born in the heart of Russia but I'm living in Chile at the moment.
+My name is Alexey aka Alekswn. 
 
 I'm a software engineer specialized in the field of system and application development for handheld and embedded
 devices. My favorite language is C++1x however I feel myself comfortable using Java for native Android app's and plain C
