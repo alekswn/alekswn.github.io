@@ -12,7 +12,7 @@ for kernel drivers.
 My academic background is related to digital signal processing and space satellite technologies including imaging,
 remote seeing and navigation. 
 
-I keen on image and video processing. 
+I am keen on image and video processing. 
 
 ### What am I looking for ?
 
