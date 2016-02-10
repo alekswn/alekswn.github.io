@@ -6,6 +6,9 @@ title: "In-place profiling in c++11: Part 1: Timing"
 This tutorial shows how to implement a tiny robust benchmarking tool in C++11. 
 This tool might be helpful for CS students as easy benchmark for algorithmic tasks and for real projects as a template for build-in profiler of mission critical methods.
 
+* TOC
+{:toc}
+
 ## Getting started
 
 C++11 standard provides two types of real-time clocks :  old-fascinate _std::clock\_t_  and brand new _std::chrono_ interface. I chose _std::chrono::high\_resolution\_clock_ for this example. 
