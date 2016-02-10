@@ -6,7 +6,8 @@ title: "In-place profiling in c++11: Part 1: Timing"
 This tutorial shows how to implement a tiny robust benchmarking tool in C++11. 
 This tool might be helpful for CS students as easy benchmark for algorithmic tasks and for real projects as a template for build-in profiler of mission critical methods.
 
-##Getting started##
+##Getting started
+
 C++11 standard provides two types of real-time clocks :  old-fascinate _std::clock\_t_  and brand new _std::chrono_ interface. I chose _std::chrono::high\_resolution\_clock_ for this example. 
 
 The idea is to create a single object controlling the timer  in the scope of benchmarked portion of code. For example, if  we'll create an object that starts timers at the beginning of the function it is destroyed automatically at the end of the function.
@@ -15,10 +16,10 @@ So we can place the stats logging facilities into the destructor of our class.
 Let's start with the code. As a first step we'll declare _namespace BENCH11_  containing benchmarking class _Timer_ and logging class _Logger_. 
 
 The _Timer_ class inteface:
-{% highlight c++ %}
+```c++
 #include <string>
 #include <chrono>
-{% endhighlight %}
+```
 {% highlight c++ %}
 namespace BENCH11 {    
     class Timer {
