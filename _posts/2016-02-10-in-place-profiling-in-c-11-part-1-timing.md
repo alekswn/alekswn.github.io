@@ -84,7 +84,7 @@ int main() {
 {% endhighlight %}
 Here are two nested benchmarks inside the _worker()_ method.
 
-##_Timer_ class implementation##
+## _Timer_ class implementation
 
 Implementation of _Timer_ is pretty straightforward. In the constructor we store the current  count of a system timer and initialize the _Logger_. In the destructor we calculate the difference between the moments of construction and destruction and pass a message to the _Logger_. I'd place these routines right into the declaration section.
 {% highlight c++ %}
