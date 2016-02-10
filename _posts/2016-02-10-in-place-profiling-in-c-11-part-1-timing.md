@@ -6,7 +6,7 @@ title: "In-place profiling in c++11: Part 1: Timing"
 This tutorial shows how to implement a tiny robust benchmarking tool in C++11. 
 This tool might be helpful for CS students as easy benchmark for algorithmic tasks and for real projects as a template for build-in profiler of mission critical methods.
 
-##Getting started
+## Getting started
 
 C++11 standard provides two types of real-time clocks :  old-fascinate _std::clock\_t_  and brand new _std::chrono_ interface. I chose _std::chrono::high\_resolution\_clock_ for this example. 
 
@@ -16,10 +16,11 @@ So we can place the stats logging facilities into the destructor of our class.
 Let's start with the code. As a first step we'll declare _namespace BENCH11_  containing benchmarking class _Timer_ and logging class _Logger_. 
 
 The _Timer_ class inteface:
-```c++
+{% highlight c++ %}
 #include <string>
 #include <chrono>
-```
+{% endhighlight %}
+
 {% highlight c++ %}
 namespace BENCH11 {    
     class Timer {
@@ -113,7 +114,7 @@ namespace BENCH11 {
 }
 {% endhighlight %}
 
-##Simple implementation of _Logger_##
+## Simple implementation of _Logger_
 
 Our simple logger will write messages to standard error stream. There are two important thinks to do. The first is a tagging messages with the location in the source code. And the second issue we have to handle is I/O delays. We'll do output asynchronously using C++ threads. I'd place the implementation right into the declaration again:
 {% highlight c++ %}
@@ -152,7 +153,7 @@ namespace BENCH11 {
 {% endhighlight %}
 Here we have a new field string _TAG_ and two helper methods. _TAG_ is filled in in the constructor and is utilized as a prefix to the message by the _logMessage()_ method. _logMessage()_ calls the static helper method _logMessageAsync()_. This method creates a detached thread for the static worker method _logMessageSync()_ which performs real I/O operations.  
 
-##Building##
+## Building
 
 This example might be build using C++11 or higher standard. Successful linkage require threading support.
 For  *gcc* compiler command line will look like that:
@@ -160,7 +161,7 @@ For  *gcc* compiler command line will look like that:
 g++ --std=c++11 -lpthread -I../include/ test_bench.cpp  -o test_bench
 {% endhighlight %}
 
-##Future improvements##
+## Future improvements
 
 There are a great variety of possible improvements according to the usage purposes. As far as the presented realization relays on the wall but not on the processor's it is not suitable for benchmarking methods with I/O calls and might give wrong results if there were high CPU load from the background processes. 
 Adding _std::clock()_ timer will help to handle these issues.
@@ -169,7 +170,7 @@ There are a lot of ways to implement more reliable _Logger_. For example, it cou
 
 Despite of the facts above this example is a good starting point.  
 
-##References##
+## References
 
 You can find the full updated sources of this example and much more at my [GitHub page](https://github.com/alekswn/Bench11/tree/master).
 
