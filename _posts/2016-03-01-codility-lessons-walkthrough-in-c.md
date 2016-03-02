@@ -61,4 +61,6 @@ Given edges **AB** and **BC** we can define the direction of rotation as the sig
 
 See my screencast for details on implementation.
 
-### [Codility's test results](https://codility.com/demo/results/trainingDYVUJ4-TST/)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/so6rLC-JG5g" frameborder="0" allowfullscreen></iframe>
+
+### [Codility's test results](https://codility.com/demo/results/trainingVXSGSW-9NM/)
