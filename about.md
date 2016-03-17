@@ -3,7 +3,7 @@ layout: page
 title: About me
 permalink: /about/
 ---
-My name is Alexey, AKA Alekswn. 
+My name is Alexey, AKA AleksWN. 
 
 I'm a software engineer specialized in the field of system and application development for handheld and embedded
 devices. My favorite language is C++1x however I feel myself comfortable using Java for native Android app's and plain C
@@ -16,7 +16,10 @@ I am keen on image and video processing.
 
 ### What am I looking for ?
 
-I'm looking for a job (preferably remote) of a senior software engineer at a small start-up company or for partners to
-found an e-learning start-up [Pocket.School](http://habla.re).
+I'm looking for a job (preferably remote) of a senior software engineer at a small start-up company.
+
+### My awards
+{% include badge.html url="https://codility.com/cert/view/cert9A3YQA-6Y28ZDJU9UQEPRE2" img="/images/AwardCodilityCalcium2015.png" description="Codility Calcium 2015" %}
+
 
 ### Feel free to contact me.
