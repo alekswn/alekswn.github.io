@@ -19,7 +19,18 @@ I am keen on image and video processing.
 I'm looking for a job (preferably remote) of a senior software engineer at a small start-up company.
 
 ### My awards
-{% include badge.html url="https://codility.com/cert/view/cert9A3YQA-6Y28ZDJU9UQEPRE2" img="/images/AwardCodilityCalcium2015.png" description="Codility Calcium 2015" %}
+<table>
+    <tr>
+        <td>
+        {% include badge.html url="https://codility.com/cert/view/cert9A3YQA-6Y28ZDJU9UQEPRE2"
+        img="/images/AwardCodilityCalcium2015.png" description="Codility Calcium 2015" %} 
+        </td> 
+        <td>
+        {% include badge.html url="https://codility.com/cert/view/certA4UT65-8KQDBZZ9EJWH78ZM/"
+img="/images/AwardCodilityScandium2016.png" description="Codility Scandium 2016" %}
+        </td>
+    </tr>
+</table>
 
 
 ### Feel free to contact me.
