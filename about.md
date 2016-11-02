@@ -6,7 +6,7 @@ permalink: /about/
 My name is Alexey, AKA AleksWN. 
 
 I'm a software engineer specialized in the field of system and application development for handheld and embedded
-devices. My favorite language is C++1x however I feel myself comfortable using Java for native Android app's and plain C
+devices. My favorite language is C++1x however I feel comfortable using Java for native Android app's and plain C
 for kernel drivers.
 
 My academic background is related to digital signal processing and space satellite technologies including imaging,
