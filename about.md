@@ -3,20 +3,13 @@ layout: page
 title: About me
 permalink: /about/
 ---
-My name is Alexey, AKA AleksWN. 
+Who am I?
 
-I'm a software engineer specialized in the field of system and application development for handheld and embedded
-devices. My favorite language is C++1x however I feel comfortable using Java for native Android app's and plain C
-for kernel drivers.
+I’m a back-end software engineer and I love to write beautiful performance critical code in C++14 and do lighting-fast prototyping in Python 3. Also, I have experience in low-level and embedded programming. 
 
-My academic background is related to digital signal processing and space satellite technologies including imaging,
-remote seeing and navigation. 
+I'm keen on image and video processing algorithms.
 
-I am keen on image and video processing. 
-
-### What am I looking for ?
-
-I'm looking for a job (preferably remote) of a senior software engineer at a small start-up company.
+My academic background is related to digital signal processing and space satellite technologies including imaging, remote seeing, and navigation.
 
 ### My awards
 <table>
