@@ -31,9 +31,9 @@
  [source](https://www.csoonline.com/article/3330695/6-reasons-biometrics-are-bad-authenticators-and-1-acceptable-use.html)
 
 ## Web-browser fingerprinting and Big Data
-  [Browser uniqality test](https://coveryourtracks.eff.org)
-  [Incognito mode check](https://www.nothingprivate.ml)
-  [click click clikc](https://t.co/Wc3tpjPMO1)
+  - [Browser uniqality test](https://coveryourtracks.eff.org)
+  - [Incognito mode check](https://www.nothingprivate.ml)
+  - [click click clikc](https://t.co/Wc3tpjPMO1)
   
 ## Why should I care about privacy at all?
 - targeted news (information bubble)
