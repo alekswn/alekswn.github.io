@@ -18,7 +18,7 @@
 
 ## Face recognition networks
 - [Clearview.ai](http://clearview.ai)
-- Mosocw Facial Recognition Network [use case](https://www.bbc.com/news/av/world-europe-52157131)
+- Mosocw Facial Recognition Network ([use case](https://www.bbc.com/news/av/world-europe-52157131))
 
 ## Bio-metric identities
  - Biometrics are horribly inaccurate
@@ -32,7 +32,7 @@
 
 ## Web-browser fingerprinting and Big Data
   [Browser uniqality test](https://coveryourtracks.eff.org)
-  [Incognito mode check] https://www.nothingprivate.ml)
+  [Incognito mode check](https://www.nothingprivate.ml)
   [click click clikc](https://t.co/Wc3tpjPMO1)
   
 ## Why should I care about privacy at all?
